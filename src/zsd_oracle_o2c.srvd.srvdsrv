@@ -1,0 +1,4 @@
+@EndUserText.label: 'Oracle O2C Service'
+define service ZSD_ORACLE_O2C {
+  expose Z_ORACLE_O2C as OracleState;
+}

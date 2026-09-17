@@ -1,0 +1,12 @@
+unmanaged implementation in class zbp_oracle_o2c unique;
+strict ( 2 );
+
+define behavior for Z_ORACLE_O2C alias OracleState
+lock master
+authorization master ( global )
+{
+  field ( readonly ) OracleId;
+
+  static function SalesOrderExists parameter ZA_ORACLE_O2C_PARAM result [1] ZA_ORACLE_O2C_RESULT;
+  static function GoodsIssuePosted parameter ZA_ORACLE_O2C_PARAM result [1] ZA_ORACLE_O2C_RESULT;
+}

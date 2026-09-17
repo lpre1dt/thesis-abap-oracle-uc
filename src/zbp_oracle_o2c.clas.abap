@@ -1,0 +1,11 @@
+CLASS zbp_oracle_o2c DEFINITION
+  PUBLIC
+  ABSTRACT
+  FINAL
+  FOR BEHAVIOR OF z_oracle_o2c.
+ENDCLASS.
+
+
+CLASS zbp_oracle_o2c IMPLEMENTATION.
+ENDCLASS.
+
